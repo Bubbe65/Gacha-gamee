@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fee943dc015e14bb4aff826f63ead8, type: 3}
+  m_Name: DiamondSword
+  m_EditorClassIdentifier: 
+  itemID: WTS004
+  itemName: Diamond Sword
+  itemDescription: The diamond sword is the mark of a keen adventurer. Made from
+    ore mined deep underground, this weapon is one of the strongest and most durable
+    around.
+  itemCost: 25
+  itemSprite: {fileID: 21300000, guid: a8d64ce70eaca434fa9aa46285c29110, type: 3}
+  ItemRarity: Epic
