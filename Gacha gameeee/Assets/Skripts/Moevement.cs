@@ -5,6 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
 
+
     Rigidbody2D rigidbody2d;
     public float speed;
 
@@ -13,12 +14,19 @@ public class NewBehaviourScript : MonoBehaviour
     int currentHealth;
     public int maxHealth;
 
+
+
   
     // Start is called before the first frame update
     void Start()
     {
 
+
         animator = GetComponent<Animator>();
+
+        rigidbody2d = GetComponent<Rigidbody2D>();
+        currentHealth = maxHealth;
+
 
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
@@ -40,7 +48,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     }
 
-  
+
     void ChangeHealth(int amount)
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
