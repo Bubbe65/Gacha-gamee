@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-
+    Rigidbody2D rigidbody2d;
     public float speed;
+    int currentHealth;
+    public int maxHealth;
   
     // Start is called before the first frame update
     void Start()
     {
-        
+        rigidbody2d = GetComponent<Rigidbody2D>();
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -28,5 +31,12 @@ public class NewBehaviourScript : MonoBehaviour
 
     }
 
-  
+    void ChangeHealth(int amount)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        Debug.Log(currentHealth + "/" + maxHealth);
+    }
+
+
+
 }
