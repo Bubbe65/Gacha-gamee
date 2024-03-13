@@ -2,19 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ash : MonoBehaviour
+public class Movment : MonoBehaviour
 {
-    private void Start()
+    // Start is called before the first frame update
+    Rigidbody2D rigidbody2d;
+    public float speed;
+    private Animator animator;
+    void Start()
     {
-        Rigidbody2D rigidbody2d;
+        animator = GetComponent<Animator>();
     }
 
-    public float speed;
-
-    private Animator animator;
     // Update is called once per frame
     void Update()
-        {
+    {
         float horizontalinput = Input.GetAxis("Horizontal");
         float verticalinput = Input.GetAxis("Vertical");
 
@@ -26,6 +27,4 @@ public class Ash : MonoBehaviour
         animator.SetFloat("Vertical", verticalinput);
 
     }
-
-
 }
