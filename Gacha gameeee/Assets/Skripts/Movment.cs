@@ -20,7 +20,6 @@ public class Movment : MonoBehaviour
         float verticalinput = Input.GetAxis("Vertical");
 
         Vector3 direction = new(horizontalinput, verticalinput, 0);
-
         transform.Translate(direction * speed * Time.deltaTime);
 
         animator.SetFloat("Horizontal", horizontalinput);
