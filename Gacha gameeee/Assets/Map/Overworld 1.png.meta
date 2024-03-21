@@ -46,10 +46,10 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.6834936, y: 0.30320296}
   spritePixelsToUnits: 15
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 406, y: 117, z: 167, w: 357}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -6015,9 +6015,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 448
-        width: 16
-        height: 16
+        y: 444
+        width: 46
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -16556,12 +16556,12 @@ TextureImporter:
       name: Overworld_783
       rect:
         serializedVersion: 2
-        x: 400
-        y: 208
+        x: 529
+        y: 206
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -1.6241417, y: 0.1373415}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -16577,8 +16577,8 @@ TextureImporter:
       name: Overworld_784
       rect:
         serializedVersion: 2
-        x: 416
-        y: 208
+        x: 590
+        y: 206
         width: 16
         height: 16
       alignment: 0
@@ -16598,7 +16598,7 @@ TextureImporter:
       name: Overworld_785
       rect:
         serializedVersion: 2
-        x: 448
+        x: 575
         y: 208
         width: 16
         height: 16
@@ -16619,8 +16619,8 @@ TextureImporter:
       name: Overworld_786
       rect:
         serializedVersion: 2
-        x: 464
-        y: 208
+        x: 597
+        y: 211
         width: 16
         height: 16
       alignment: 0
@@ -17123,8 +17123,8 @@ TextureImporter:
       name: Overworld_810
       rect:
         serializedVersion: 2
-        x: 400
-        y: 192
+        x: 624
+        y: 193
         width: 16
         height: 16
       alignment: 0
@@ -17144,8 +17144,8 @@ TextureImporter:
       name: Overworld_811
       rect:
         serializedVersion: 2
-        x: 416
-        y: 192
+        x: 604
+        y: 187
         width: 16
         height: 16
       alignment: 0
@@ -17165,8 +17165,8 @@ TextureImporter:
       name: Overworld_812
       rect:
         serializedVersion: 2
-        x: 432
-        y: 192
+        x: 624
+        y: 193
         width: 16
         height: 16
       alignment: 0
@@ -17186,8 +17186,8 @@ TextureImporter:
       name: Overworld_813
       rect:
         serializedVersion: 2
-        x: 448
-        y: 192
+        x: 617
+        y: 194
         width: 16
         height: 16
       alignment: 0
@@ -17207,8 +17207,8 @@ TextureImporter:
       name: Overworld_814
       rect:
         serializedVersion: 2
-        x: 464
-        y: 192
+        x: 558
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -17606,7 +17606,7 @@ TextureImporter:
       name: Overworld_833
       rect:
         serializedVersion: 2
-        x: 400
+        x: 595
         y: 176
         width: 16
         height: 16
@@ -17627,12 +17627,12 @@ TextureImporter:
       name: Overworld_834
       rect:
         serializedVersion: 2
-        x: 416
-        y: 176
+        x: 536
+        y: 195
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 8.6874275, y: -0.050143242}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -17648,8 +17648,8 @@ TextureImporter:
       name: Overworld_835
       rect:
         serializedVersion: 2
-        x: 432
-        y: 176
+        x: 596
+        y: 180
         width: 16
         height: 16
       alignment: 0
@@ -17669,8 +17669,8 @@ TextureImporter:
       name: Overworld_836
       rect:
         serializedVersion: 2
-        x: 448
-        y: 176
+        x: 610
+        y: 186
         width: 16
         height: 16
       alignment: 0
@@ -17690,7 +17690,7 @@ TextureImporter:
       name: Overworld_837
       rect:
         serializedVersion: 2
-        x: 464
+        x: 518
         y: 176
         width: 16
         height: 16
@@ -18152,8 +18152,8 @@ TextureImporter:
       name: Overworld_859
       rect:
         serializedVersion: 2
-        x: 400
-        y: 160
+        x: 582
+        y: 182
         width: 16
         height: 16
       alignment: 0
@@ -18173,8 +18173,8 @@ TextureImporter:
       name: Overworld_860
       rect:
         serializedVersion: 2
-        x: 416
-        y: 160
+        x: 624
+        y: 177
         width: 16
         height: 16
       alignment: 0
@@ -18194,8 +18194,8 @@ TextureImporter:
       name: Overworld_861
       rect:
         serializedVersion: 2
-        x: 432
-        y: 160
+        x: 624
+        y: 164
         width: 16
         height: 16
       alignment: 0
@@ -18215,8 +18215,8 @@ TextureImporter:
       name: Overworld_862
       rect:
         serializedVersion: 2
-        x: 448
-        y: 160
+        x: 545
+        y: 178
         width: 16
         height: 16
       alignment: 0
@@ -18236,8 +18236,8 @@ TextureImporter:
       name: Overworld_863
       rect:
         serializedVersion: 2
-        x: 464
-        y: 160
+        x: 574
+        y: 177
         width: 16
         height: 16
       alignment: 0
@@ -18719,8 +18719,8 @@ TextureImporter:
       name: Overworld_886
       rect:
         serializedVersion: 2
-        x: 400
-        y: 144
+        x: 601
+        y: 169
         width: 16
         height: 16
       alignment: 0
@@ -18740,8 +18740,8 @@ TextureImporter:
       name: Overworld_887
       rect:
         serializedVersion: 2
-        x: 416
-        y: 144
+        x: 603
+        y: 171
         width: 16
         height: 16
       alignment: 0
@@ -18761,8 +18761,8 @@ TextureImporter:
       name: Overworld_888
       rect:
         serializedVersion: 2
-        x: 432
-        y: 144
+        x: 541
+        y: 188
         width: 16
         height: 16
       alignment: 0
@@ -18782,8 +18782,8 @@ TextureImporter:
       name: Overworld_889
       rect:
         serializedVersion: 2
-        x: 448
-        y: 144
+        x: 573
+        y: 151
         width: 16
         height: 16
       alignment: 0
@@ -18803,8 +18803,8 @@ TextureImporter:
       name: Overworld_890
       rect:
         serializedVersion: 2
-        x: 464
-        y: 144
+        x: 596
+        y: 149
         width: 16
         height: 16
       alignment: 0
@@ -19307,8 +19307,8 @@ TextureImporter:
       name: Overworld_914
       rect:
         serializedVersion: 2
-        x: 400
-        y: 128
+        x: 607
+        y: 167
         width: 16
         height: 16
       alignment: 0
@@ -19328,8 +19328,8 @@ TextureImporter:
       name: Overworld_915
       rect:
         serializedVersion: 2
-        x: 416
-        y: 128
+        x: 540
+        y: 143
         width: 16
         height: 16
       alignment: 0
@@ -19349,8 +19349,8 @@ TextureImporter:
       name: Overworld_916
       rect:
         serializedVersion: 2
-        x: 432
-        y: 128
+        x: 538
+        y: 150
         width: 16
         height: 16
       alignment: 0
@@ -19370,8 +19370,8 @@ TextureImporter:
       name: Overworld_917
       rect:
         serializedVersion: 2
-        x: 448
-        y: 128
+        x: 553
+        y: 134
         width: 16
         height: 16
       alignment: 0
@@ -19391,8 +19391,8 @@ TextureImporter:
       name: Overworld_918
       rect:
         serializedVersion: 2
-        x: 464
-        y: 128
+        x: 613
+        y: 145
         width: 16
         height: 16
       alignment: 0
@@ -19895,10 +19895,10 @@ TextureImporter:
       name: Overworld_942
       rect:
         serializedVersion: 2
-        x: 400
-        y: 112
-        width: 16
-        height: 16
+        x: 409
+        y: 118
+        width: 62
+        height: 103
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -19916,12 +19916,12 @@ TextureImporter:
       name: Overworld_943
       rect:
         serializedVersion: 2
-        x: 416
-        y: 112
+        x: 573
+        y: 110
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 19.39452, y: -0.29041672}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -19937,12 +19937,12 @@ TextureImporter:
       name: Overworld_944
       rect:
         serializedVersion: 2
-        x: 448
-        y: 112
+        x: 567
+        y: 121
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 15.748203, y: 1.1803055}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -19958,12 +19958,12 @@ TextureImporter:
       name: Overworld_945
       rect:
         serializedVersion: 2
-        x: 464
-        y: 112
+        x: 591
+        y: 133
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 3.1273842, y: 1.5321865}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -20924,8 +20924,8 @@ TextureImporter:
       name: Overworld_991
       rect:
         serializedVersion: 2
-        x: 368
-        y: 80
+        x: 524
+        y: 91
         width: 16
         height: 16
       alignment: 0
@@ -21365,8 +21365,8 @@ TextureImporter:
       name: Overworld_1012
       rect:
         serializedVersion: 2
-        x: 352
-        y: 64
+        x: 488
+        y: 63
         width: 16
         height: 16
       alignment: 0
@@ -21386,8 +21386,8 @@ TextureImporter:
       name: Overworld_1013
       rect:
         serializedVersion: 2
-        x: 368
-        y: 64
+        x: 490
+        y: 85
         width: 16
         height: 16
       alignment: 0
@@ -21911,10 +21911,10 @@ TextureImporter:
       name: Overworld_1038
       rect:
         serializedVersion: 2
-        x: 320
-        y: 48
-        width: 16
-        height: 16
+        x: 311
+        y: 46
+        width: 65
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -21932,8 +21932,8 @@ TextureImporter:
       name: Overworld_1039
       rect:
         serializedVersion: 2
-        x: 336
-        y: 48
+        x: 519
+        y: 44
         width: 16
         height: 16
       alignment: 0
@@ -21953,8 +21953,8 @@ TextureImporter:
       name: Overworld_1040
       rect:
         serializedVersion: 2
-        x: 352
-        y: 48
+        x: 533
+        y: 50
         width: 16
         height: 16
       alignment: 0
@@ -21974,8 +21974,8 @@ TextureImporter:
       name: Overworld_1041
       rect:
         serializedVersion: 2
-        x: 368
-        y: 48
+        x: 522
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -22642,17 +22642,61 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Overworld 1_0
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 82
+        width: 244
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b9bf6c9f603bf4fa35600600d74523
+      internalID: 1196558663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld 1_1
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 23
+        width: 139
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eda67276c2391c41be0295465f47a5d
+      internalID: 1250031757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Overworld 1_0: 1196558663
+      Overworld 1_1: 1250031757
       Overworld_0: -1555496849
       Overworld_1: 1678754563
       Overworld_10: 1926020089
