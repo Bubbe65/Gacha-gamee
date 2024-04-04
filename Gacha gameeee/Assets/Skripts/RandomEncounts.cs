@@ -14,5 +14,17 @@ public class RandomEncounts : MonoBehaviour
     void Update()
     {
         
+
+
+
+
+
+
+
+
     }
+
+
+
+
 }
