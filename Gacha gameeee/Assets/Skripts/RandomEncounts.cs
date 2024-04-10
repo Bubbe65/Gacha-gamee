@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class RandomEncounts : MonoBehaviour
 {
+
+    public LayerMask LongGrass;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +15,7 @@ public class RandomEncounts : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        CheckForEncounters();
 
 
 
@@ -25,6 +27,20 @@ public class RandomEncounts : MonoBehaviour
     }
 
 
+    private void CheckForEncounters()
+    {
+        if (Physics2D.OverlapCircle(transform.position, 0.2f, LongGrass)!= null)
+        {
+            if(Random.Range(1, 101) <= 10)
+            {
+                Debug.Log("Encountered a nigguh");
 
+            }
+
+
+        }
+
+
+    }
 
 }
