@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "FatData", menuName = "Fat/Create new fat")]
-public class FatBase : MonoBehaviour
+[CreateAssetMenu(fileName = "FatData", menuName = "Databases/Create new fat")]
+public class FatBase : ScriptableObject
 
 {
     [SerializeField]string Name;
@@ -36,5 +36,4 @@ public enum FatType
     Grass,
     Light,
     Darkness,
-    
 }
