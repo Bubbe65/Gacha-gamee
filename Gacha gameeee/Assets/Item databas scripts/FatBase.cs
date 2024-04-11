@@ -11,7 +11,7 @@ public class FatBase : ScriptableObject
 
     [TextArea]
     [SerializeField] string description;
-
+    [SerializeField] public SpriteRenderer a;
     [SerializeField] Sprite frontSprite;
     [SerializeField] Sprite backSprite;
 

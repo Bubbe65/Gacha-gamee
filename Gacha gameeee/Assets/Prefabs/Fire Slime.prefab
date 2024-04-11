@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8610416860916049328}
   - component: {fileID: 6133100697891966209}
   - component: {fileID: 4865224705520583215}
+  - component: {fileID: -3007362891024091108}
   m_Layer: 0
   m_Name: Fire Slime
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3573568232493076932}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.96958, y: -7.1605554, z: 0}
+  m_LocalPosition: {x: 55.999, y: -7.085, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -106,3 +107,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3007362891024091108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3573568232493076932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bdaabf4433a2ec4f99d8924f7acc7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: 151d68c8c4fba854081951aed2507216, type: 2}
