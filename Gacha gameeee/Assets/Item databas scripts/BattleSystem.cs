@@ -12,6 +12,9 @@ public class BattleSystem : MonoBehaviour
     public Transform enemyBattleStation;
 
     public BattleState state;
+
+    FatUnit playerUnit;
+    FatUnit enemyUnit;
     private void Start()
     {
         state = BattleState.START;
@@ -20,8 +23,14 @@ public class BattleSystem : MonoBehaviour
 
     void SetupBattle()
     {
-        Instantiate(playerPrefab, playerBattleStation);
-        Instantiate(enemyPrefab, enemyBattleStation);
+        GameObject playerGo = Instantiate(playerPrefab, playerBattleStation);
+        playerUnit = playerGo.GetComponent<FatUnit>();
+        
+        GameObject enemyGo = Instantiate(enemyPrefab, enemyBattleStation);
+        enemyUnit = enemyGo.GetComponent<FatUnit>();
+
+
+     
     }
 
 }
