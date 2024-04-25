@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST}
 public class BattleSystem : MonoBehaviour
@@ -15,6 +16,8 @@ public class BattleSystem : MonoBehaviour
 
     FatUnit playerUnit;
     FatUnit enemyUnit;
+
+    public Text dialogueText;
     private void Start()
     {
         state = BattleState.START;
@@ -29,6 +32,7 @@ public class BattleSystem : MonoBehaviour
         GameObject enemyGo = Instantiate(enemyPrefab, enemyBattleStation);
         enemyUnit = enemyGo.GetComponent<FatUnit>();
 
+        dialogueText.text = "A wild" + enemyUnit.FatName + " approaches. . .";
 
      
     }
