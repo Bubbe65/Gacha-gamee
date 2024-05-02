@@ -12,6 +12,9 @@ public class BattleSystem : MonoBehaviour
     public Transform playerBattleStation;
     public Transform enemyBattleStation;
 
+    public BattleHUD playerHUD;
+    public BattleHUD enemyHUD;
+
     public BattleState state;
 
     FatUnit playerUnit;
@@ -21,10 +24,10 @@ public class BattleSystem : MonoBehaviour
     private void Start()
     {
         state = BattleState.START;
-        SetupBattle();
+        StartCoroutine(SetupBattle());
     }
 
-    void SetupBattle()
+    IEnumerator SetupBattle()
     {
         GameObject playerGo = Instantiate(playerPrefab, playerBattleStation);
         playerUnit = playerGo.GetComponent<FatUnit>();
@@ -32,9 +35,36 @@ public class BattleSystem : MonoBehaviour
         GameObject enemyGo = Instantiate(enemyPrefab, enemyBattleStation);
         enemyUnit = enemyGo.GetComponent<FatUnit>();
 
-        dialogueText.text = "A wild" + enemyUnit.FatName + " approaches. . .";
+        dialogueText.text = "A wild " + enemyUnit.FatName + " approaches. . .";
 
-     
+        playerHUD.SetHUD(playerUnit);
+        enemyHUD.SetHUD(enemyUnit);
+
+        yield return new WaitForSeconds(2F);
+
+        state = BattleState.PLAYERTURN;
+        PlayerTurn();
+    }
+
+
+    IEnumerator PlayerAttack()
+    {
+
+        yield return new WaitForSeconds(2F);
+    }
+
+    void PlayerTurn()
+    {
+        dialogueText.text = "Choose an action:";
+
+    }
+
+    public void OnAttackButton()
+    {
+        if (state != BattleState.PLAYERTURN)
+            return;
+
+        StartCoroutine(PlayerAttack());
     }
 
 }

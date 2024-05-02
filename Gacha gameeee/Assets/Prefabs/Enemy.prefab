@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e661e70c75e3a94097327e94b1390d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FatName: 
+  FatName: Andrew
   FatLevel: 5
   damage: 2
   maxHp: 10
