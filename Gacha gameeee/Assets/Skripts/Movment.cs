@@ -8,6 +8,8 @@ public class Movment : MonoBehaviour
     Rigidbody2D rigidbody2d;
     public float speed;
     private Animator animator;
+
+    public LayerMask grassLayer;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -25,5 +27,19 @@ public class Movment : MonoBehaviour
         animator.SetFloat("Horizontal", horizontalinput);
         animator.SetFloat("Vertical", verticalinput);
 
+        CheckForEcounters();
+
+    }
+
+
+    private void CheckForEcounters()
+    {
+       if ( Physics2D.OverlapCircle(transform.position, 0.2f, grassLayer) != null)
+        {
+           if (Random.Range(1, 101) <= 10)
+            {
+                Debug.Log("Encountered a wild Fat");
+            }
+        }
     }
 }
