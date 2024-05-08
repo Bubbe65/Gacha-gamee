@@ -49,8 +49,61 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerAttack()
     {
+        bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
-        yield return new WaitForSeconds(2F);
+
+        dialogueText.text = "The attack is succesful!";
+
+     
+        if (isDead)
+        {
+            state = BattleState.WON;
+            enemyHUD.SetHp(enemyUnit.currentHp = 0);
+            EndBattle();
+        }
+        else
+        {
+            state = BattleState.ENEMYTURN;
+            enemyHUD.SetHp(enemyUnit.currentHp);
+            dialogueText.text = "You deal " + playerUnit.damage + " damage...";
+            yield return new WaitForSeconds(2F);
+
+            StartCoroutine(EnemyTurn());
+        }
+    }
+
+    IEnumerator EnemyTurn()
+    {
+        dialogueText.text = enemyUnit.FatName + " attacks!";
+        yield return new WaitForSeconds(1F);
+
+        bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
+
+        playerHUD.SetHp(playerUnit.currentHp);
+
+        yield return new WaitForSeconds(1F);
+
+        if (isDead)
+        {
+            state = BattleState.LOST;
+            EndBattle();
+        }
+        else
+        {
+            state = BattleState.PLAYERTURN;
+            PlayerTurn();
+        }
+    }
+
+    void EndBattle()
+    {
+        if(state == BattleState.WON)
+        {
+            dialogueText.text = "Yoy won the battle!";
+        }else if (state == BattleState.LOST)
+        {
+            dialogueText.text = "You were defeated.";
+        }
     }
 
     void PlayerTurn()
@@ -59,12 +112,37 @@ public class BattleSystem : MonoBehaviour
 
     }
 
+    IEnumerator PlayerHeal()
+    {
+        playerUnit.Heal(5);
+        
+        state = BattleState.ENEMYTURN;
+
+        playerHUD.SetHp(playerUnit.currentHp);
+        dialogueText.text = "Yoe feel renewed strength!";
+
+        yield return new WaitForSeconds(2F);
+
+       
+        StartCoroutine(EnemyTurn());
+    }
+
+
     public void OnAttackButton()
     {
         if (state != BattleState.PLAYERTURN)
             return;
 
         StartCoroutine(PlayerAttack());
+    }
+   
+    
+    public void OnHealButton()
+    {
+        if (state != BattleState.PLAYERTURN)
+            return;
+
+        StartCoroutine(PlayerHeal());
     }
 
 }

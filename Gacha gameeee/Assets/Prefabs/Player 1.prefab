@@ -48,8 +48,8 @@ MonoBehaviour:
   FatName: Player
   FatLevel: 5
   damage: 2
-  maxHp: 10
-  currentHp: 5
+  maxHp: 100
+  currentHp: 100
 --- !u!1 &6410123431544758045
 GameObject:
   m_ObjectHideFlags: 0
