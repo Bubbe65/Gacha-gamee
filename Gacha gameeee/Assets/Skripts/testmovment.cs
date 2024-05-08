@@ -5,6 +5,7 @@ using UnityEngine;
 public class Testingmovement : MonoBehaviour
 {
     public float speed;
+    static public bool dialogue = false;
     // Start is called before the first frame update
     void Start()
     {

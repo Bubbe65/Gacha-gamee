@@ -15,12 +15,19 @@ public class NPCSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(player_detection && Input.GetKeyDown(KeyCode.F))
+        if(player_detection && Input.GetKeyDown(KeyCode.F) && !Testingmovement.dialogue)
         {
             print("Dialogue Started!");
-
+            Testingmovement.dialogue = true;
 
         }
+    }
+
+    void NewDialogue(string text)
+    {
+
+
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
