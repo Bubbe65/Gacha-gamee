@@ -13,6 +13,8 @@ public class Movment : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+
+        
     }
 
     // Update is called once per frame
@@ -27,19 +29,10 @@ public class Movment : MonoBehaviour
         animator.SetFloat("Horizontal", horizontalinput);
         animator.SetFloat("Vertical", verticalinput);
 
-        CheckForEcounters();
+    
 
     }
 
 
-    private void CheckForEcounters()
-    {
-       if ( Physics2D.OverlapCircle(transform.position, 0.2f, grassLayer) != null)
-        {
-           if (Random.Range(1, 101) <= 10)
-            {
-                Debug.Log("Encountered a wild Fat");
-            }
-        }
-    }
+  
 }
