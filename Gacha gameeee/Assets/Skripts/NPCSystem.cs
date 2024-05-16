@@ -25,7 +25,7 @@ public class NPCSystem : MonoBehaviour
             print("Dialogue Started!");
             Testingmovement.dialogue = true;
             NewDialogue("Hi");
-            NewDialogue("I am Niggaman");
+            NewDialogue("I am Schlimey");
             canva.transform.GetChild(1).gameObject.SetActive(true);
 
         }
