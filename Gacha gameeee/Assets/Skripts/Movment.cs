@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movment : MonoBehaviour
 {
@@ -32,7 +33,18 @@ public class Movment : MonoBehaviour
     
 
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Debug.Log("Suck my toe");
+        }
+        
+   
+
+    }
 
 
-  
+
 }
