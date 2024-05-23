@@ -42,7 +42,7 @@ public class NPCSystem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.name == "Square")
+        if(other.name == "character_0")
         {
             player_detection = true;
         }
