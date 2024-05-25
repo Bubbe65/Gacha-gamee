@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FatName: Player
   FatLevel: 5
-  damage: 2
+  damage: 10
   maxHp: 100
   currentHp: 100
 --- !u!1 &6410123431544758045

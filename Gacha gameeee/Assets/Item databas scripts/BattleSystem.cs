@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST}
 public class BattleSystem : MonoBehaviour
@@ -100,6 +101,8 @@ public class BattleSystem : MonoBehaviour
         if(state == BattleState.WON)
         {
             dialogueText.text = "Yoy won the battle!";
+            SceneManager.LoadScene("SampleScene");
+            
         }else if (state == BattleState.LOST)
         {
             dialogueText.text = "You were defeated.";

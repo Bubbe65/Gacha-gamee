@@ -11,6 +11,7 @@ public class Movment : MonoBehaviour
     private Animator animator;
 
     public LayerMask grassLayer;
+    
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -35,9 +36,12 @@ public class Movment : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
         if (collision.gameObject.tag == "Enemy")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+            // public string Scene = SceneManager.GetSceneByName("Battle encounter").name;
+            SceneManager.LoadScene("Battle encounter");
             Debug.Log("Suck my toe");
         }
         

@@ -1301,8 +1301,16 @@ PrefabInstance:
       value: Dark Slime roam
       objectReference: {fileID: 0}
     - target: {fileID: 3104413872822722460, guid: 120fe181716bd8d4ba1d9d332fb1c311, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3104413872822722460, guid: 120fe181716bd8d4ba1d9d332fb1c311, type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553057461248508677, guid: 120fe181716bd8d4ba1d9d332fb1c311, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7817705227360417307, guid: 120fe181716bd8d4ba1d9d332fb1c311, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1436,7 +1444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2466560195277574808, guid: d0c4259f57f4a9243a7190affbd59bf4, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2947821862236679858, guid: d0c4259f57f4a9243a7190affbd59bf4, type: 3}
       propertyPath: LongGrass.m_Bits
@@ -1492,7 +1500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5612499549344212658, guid: d0c4259f57f4a9243a7190affbd59bf4, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9140006648170627095, guid: d0c4259f57f4a9243a7190affbd59bf4, type: 3}
       propertyPath: m_IsTrigger
