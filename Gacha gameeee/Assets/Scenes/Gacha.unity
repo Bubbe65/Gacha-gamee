@@ -100704,6 +100704,88 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f9bfaca06fb8c843bfd97628dd2c904, type: 3}
+--- !u!1001 &2272091765859763993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 109.36478
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -20.70709
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3478235663018996854, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561192435010331926, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      propertyPath: m_Name
+      value: 'Boss '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7561192435010331926, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2272091765859763995}
+  m_SourcePrefab: {fileID: 100100000, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+--- !u!1 &2272091765859763994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7561192435010331926, guid: 1a2dd20286f263b4ba4434a0866f1194, type: 3}
+  m_PrefabInstance: {fileID: 2272091765859763993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2272091765859763995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2272091765859763994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e661e70c75e3a94097327e94b1390d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FatName: 'Andrew, Warden of the Eternal Slumber '
+  FatLevel: 1000
+  damage: 200
+  maxHp: 10000
+  currentHp: 10000
 --- !u!1001 &2428537792083196560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102300,3 +102382,4 @@ SceneRoots:
   - {fileID: 539268195}
   - {fileID: 131685812}
   - {fileID: 619957209}
+  - {fileID: 2272091765859763993}
