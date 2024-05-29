@@ -93052,6 +93052,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4473354292637523724, guid: cecca7af450ccb64891a54aa99f82d9a, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 1949915991}
+    - target: {fileID: 4473354292637523724, guid: cecca7af450ccb64891a54aa99f82d9a, type: 3}
+      propertyPath: d_template
+      value: 
+      objectReference: {fileID: 1249729006}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -95745,6 +95753,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce71799091ed8940a3614baf3894eb0, type: 3}
+--- !u!1 &1249729006 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7969949896381538921, guid: d0c4259f57f4a9243a7190affbd59bf4, type: 3}
+  m_PrefabInstance: {fileID: 1730196370}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1271295570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98547,10 +98560,6 @@ PrefabInstance:
       value: character_0
       objectReference: {fileID: 0}
     - target: {fileID: 4996051154178630280, guid: d0c4259f57f4a9243a7190affbd59bf4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0373
-      objectReference: {fileID: 0}
-    - target: {fileID: 4996051154178630280, guid: d0c4259f57f4a9243a7190affbd59bf4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.6086
       objectReference: {fileID: 0}
@@ -99564,6 +99573,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1082962cdc466854e94bba3b19f6f334, type: 3}
+--- !u!1 &1949915991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3796915308784726214, guid: d0c4259f57f4a9243a7190affbd59bf4, type: 3}
+  m_PrefabInstance: {fileID: 1730196370}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1953869707
 PrefabInstance:
   m_ObjectHideFlags: 0
