@@ -39,9 +39,9 @@ public class Movment : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
-
+            GameData.Instance.SetPlayerPosition(transform.position);
             // public string Scene = SceneManager.GetSceneByName("Battle encounter").name;
-            SceneManager.LoadScene("Battle encounter");
+            SceneManager.LoadSceneAsync("Battle encounter") ;
             Debug.Log("Suck my toe");
         }
         

@@ -100,10 +100,16 @@ public class BattleSystem : MonoBehaviour
     {
         if(state == BattleState.WON)
         {
+            Vector3 playerPosition = GameData.Instance.GetPlayerPosition();
+            GameObject player = GameObject.FindGameObjectWithTag("player");
             dialogueText.text = "Yoy won the battle!";
             SceneManager.LoadScene("SampleScene");
-            
-        }else if (state == BattleState.LOST)
+            if (player != null)
+            {
+                player.transform.position = playerPosition;
+            }
+        }
+        else if (state == BattleState.LOST)
         {
             dialogueText.text = "You were defeated.";
         }
