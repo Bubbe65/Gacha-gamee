@@ -19,6 +19,9 @@ public class NPCSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Detta startar dialogen med vilkoret att spelaren befinner sig inom räckvidd till NPC:n
+        //Samtidigt att tangenten F trycks
+        //När villkoren uppfylls så startar dialogen med en textruta som dyker fram
         if(player_detection && Input.GetKeyDown(KeyCode.F) && !Testingmovement.dialogue)
         {
             canva.SetActive(true);
@@ -31,6 +34,7 @@ public class NPCSystem : MonoBehaviour
         }
     }
 
+    //Detta skapar metoden NewDialogue() och innehåller så att textrutan kan dyka upp
     void NewDialogue(string text)
     {
         GameObject template_clone = Instantiate(d_template, d_template.transform);
@@ -40,6 +44,8 @@ public class NPCSystem : MonoBehaviour
 
     }
 
+    //Detta ser till att om spelaren är nära NPC:n så blir boolen player_detection true
+    //Denna kod är viktig eftersom det är en av villkoren till IF-satsen
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.name == "character_0")
