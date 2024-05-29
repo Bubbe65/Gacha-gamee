@@ -44,6 +44,11 @@ public class Movment : MonoBehaviour
             SceneManager.LoadScene("Battle encounter");
             Debug.Log("Suck my toe");
         }
+        else 
+        {
+
+        }
+        
         
    
 
