@@ -7,10 +7,13 @@ TagManager:
   - LongGrass
   - Enemy
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Door
 =======
   - player
 >>>>>>> 8f2579a25eff342095999fc9ea42a32bf2f15ef8
+=======
+>>>>>>> parent of acc1210 (gfc)
   layers:
   - Default
   - TransparentFX
