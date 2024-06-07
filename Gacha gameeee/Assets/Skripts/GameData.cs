@@ -5,7 +5,7 @@ public class GameData : MonoBehaviour
 {
     private static GameData instance;
 
-    // Store the player's position directly
+    // Skit script
     private Vector3 playerPosition;
 
     private void Awake()
