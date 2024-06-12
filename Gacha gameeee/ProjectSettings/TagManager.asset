@@ -3,22 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - LongGrass
-  - Enemy
-<<<<<<< HEAD
-  - Door
-=======
-  - player
->>>>>>> 8f2579a25eff342095999fc9ea42a32bf2f15ef8
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
-  - LongGrass
+  - 
   - 
   - 
   - 
@@ -47,7 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Ground
-    uniqueID: 4175188007
     locked: 0
