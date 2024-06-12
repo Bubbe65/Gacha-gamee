@@ -43,6 +43,7 @@ public class Movment : MonoBehaviour
             GameData.Instance.SetPlayerPosition(transform.position);
             // public string Scene = SceneManager.GetSceneByName("Battle encounter").name;
             SceneManager.LoadSceneAsync("Battle encounter") ;
+            DontDestroyOnLoad(gameObject);
             Debug.Log("Suck my toe");
         }
         

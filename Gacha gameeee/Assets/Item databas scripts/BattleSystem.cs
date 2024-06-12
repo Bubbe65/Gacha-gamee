@@ -104,14 +104,10 @@ public class BattleSystem : MonoBehaviour
         // När slutet av striden är uppnådd
         if(state == BattleState.WON)
         {
-            Vector3 playerPosition = GameData.Instance.GetPlayerPosition();     
+            
             GameObject player = GameObject.FindGameObjectWithTag("player"); 
             dialogueText.text = "Yoy won the battle!"; // dialogue text när man vinner 
-            SceneManager.LoadScene("SampleScene"); // Loadar in scenen igen Försker fixa just nu
-            if (player != null)
-            {
-                player.transform.position = playerPosition;
-            }
+            SceneManager.LoadScene("Gacha"); // Loadar in scenen igen Försker fixa just nu
         }
         else if (state == BattleState.LOST) // Dilagoue r´text när man förlorar
         {
